@@ -1,0 +1,302 @@
+body{
+    background-image: url(#);
+    background-repeat: no-repeat;
+}
+
+/*===== Preloader Style =====*/
+
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+}
+.preloader .color-1{
+    background-color: #421966 !important;
+}
+.rubix-cube {
+	border: 1px solid #FFF;
+	width: 48px;
+	height: 48px;
+	background-color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.rubix-cube .layer{
+	width:14px;
+	height:14px;
+	background-color:#138ea4;
+	border:1px solid #FFF;
+	position:absolute;
+	
+}
+.rubix-cube .layer-1{
+	left:0px;
+	top:0px;
+	-webkit-animation: rubixcube4 2s infinite linear;
+	animation: rubixcube4 2s infinite linear; 
+}
+.rubix-cube .layer-2{
+	left:16px;
+	top:0px;
+	-webkit-animation: rubixcube3 2s infinite  linear;
+	animation: rubixcube3 2s infinite  linear; 
+}
+.rubix-cube .layer-3{
+	left:32px;
+	top:0px;
+}
+.rubix-cube .layer-4{
+	left:0px;
+	top:16px;
+	-webkit-animation: rubixcube5 2s infinite linear;
+	animation: rubixcube5 2s infinite linear; 
+	
+}
+.rubix-cube .layer-5{
+	left:16px;
+	top:16px;
+	-webkit-animation: rubixcube2 2s infinite linear;
+	animation: rubixcube2 2s infinite linear; 
+}
+.rubix-cube .layer-6{
+	left:32px;
+	top:16px;
+	-webkit-animation: rubixcube1 2s infinite linear;
+	animation: rubixcube1 2s infinite linear; 
+}
+.rubix-cube .layer-7{
+	left:0px;
+	top:32px;
+	-webkit-animation: rubixcube6 2s infinite linear;
+	animation: rubixcube6 2s infinite linear; 
+}
+.rubix-cube .layer-8{
+	left:16px;
+	top:32px;
+	-webkit-animation: rubixcube7 2s infinite linear;
+	animation: rubixcube7 2s infinite linear; 
+	
+}
+@-webkit-keyframes rubixcube1{
+	20%{ top:16px; left:32px;}
+	30%{ top:32px; left:32px; }
+	40%{ top:32px; left:32px; }
+	50%{ top:32px; left:32px; }
+	60%{ top:32px; left:32px; }	
+	70%{ top:32px; left:32px; }	
+	80%{ top:32px; left:32px; }	
+	90%{ top:32px; left:32px; }	
+	100%{ top:32px; left:16px; }
+	
+}
+@keyframes rubixcube1{
+	20%{ top:16px; left:32px;}
+	30%{ top:32px; left:32px; }
+	40%{ top:32px; left:32px; }
+	50%{ top:32px; left:32px; }
+	60%{ top:32px; left:32px; }	
+	70%{ top:32px; left:32px; }	
+	80%{ top:32px; left:32px; }	
+	90%{ top:32px; left:32px; }	
+	100%{ top:32px; left:16px; }
+	
+}
+@-webkit-keyframes rubixcube2{
+	30%{ left:16px;}
+	40%{ left:32px;}
+	50%{ left:32px;}
+	60%{ left:32px;}
+	70%{ left:32px;}
+	80%{ left:32px;}
+	90%{ left:32px;}
+	100%{ left:32px;}
+}
+@keyframes rubixcube2{
+	30%{ left:16px;}
+	40%{ left:32px;}
+	50%{ left:32px;}
+	60%{ left:32px;}
+	70%{ left:32px;}
+	80%{ left:32px;}
+	90%{ left:32px;}
+	100%{ left:32px;}
+}
+
+@-webkit-keyframes rubixcube3{
+	30%{ top:0px;}
+	40%{ top:0px;}
+	50%{ top:16px;}
+	60%{ top:16px;}
+	70%{ top:16px;}
+	80%{ top:16px;}
+	90%{ top:16px;}
+	100%{ top:16px;}
+}
+
+@keyframes rubixcube3{
+	30%{ top:0px;}
+	40%{ top:0px;}
+	50%{ top:16px;}
+	60%{ top:16px;}
+	70%{ top:16px;}
+	80%{ top:16px;}
+	90%{ top:16px;}
+	100%{ top:16px;}
+}
+@-webkit-keyframes rubixcube4{
+	50%{ left:0px;}
+	60%{ left:16px;}
+	70%{ left:16px;}
+	80%{ left:16px;}
+	90%{ left:16px;}
+	100%{ left:16px;}
+}
+@keyframes rubixcube4{
+	50%{ left:0px;}
+	60%{ left:16px;}
+	70%{ left:16px;}
+	80%{ left:16px;}
+	90%{ left:16px;}
+	100%{ left:16px;}
+}
+@-webkit-keyframes rubixcube5{
+	60%{ top:16px;}
+	70%{ top:0px;}
+	80%{ top:0px;}
+	90%{ top:0px;}
+	100%{ top:0px;}
+}
+@keyframes rubixcube5{
+	60%{ top:16px;}
+	70%{ top:0px;}
+	80%{ top:0px;}
+	90%{ top:0px;}
+	100%{ top:0px;}
+}
+@-webkit-keyframes rubixcube6{
+	70%{ top:32px;}
+	80%{ top:16px;}
+	90%{ top:16px;}
+	100%{ top:16px;}
+}
+@keyframes rubixcube6{
+	70%{ top:32px;}
+	80%{ top:16px;}
+	90%{ top:16px;}
+	100%{ top:16px;}
+}
+@-webkit-keyframes rubixcube7{
+	80%{ left:16px;}
+	90%{ left:0px;}
+	100%{ left:0px;}
+}
+@keyframes rubixcube7{
+	80%{ left:16px;}
+	90%{ left:0px;}
+	100%{ left:0px;}
+}
+
+
+/*===== End of Preloader Style =====*/
+
+/*===== Errors Container =====*/
+
+.container-fluid{
+    max-width: 400px;
+    margin-top: 80px;
+	
+}
+.alert{
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*===== End of Errors Conainer =====*/
+
+/*===== Login Card Style =====*/
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: rgba(247, 247, 247, 0.1);
+    /* 5px rounded corners */
+    border-radius:10px; 
+    cursor:pointer;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    min-height:400px;
+}
+.login_image{
+    border-radius: 60%;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+.form-control{
+    font-size:14px;
+    text-align:center;
+    border-radius:50px;
+    border-color: #421966;
+    border-width: 0.5px;
+	background-color: #fff;
+}
+.btn-sensational{
+	font-size: 15px;
+    font-weight: bold;
+	width:100px;
+}
+.btn-sensational{
+    background-color: #421966;
+    color:#fff;
+    border-radius: 50px;
+    border:0px;
+    padding: 5px;
+}
+.btn-sensational:hover{
+	background-color: #138ea4;
+	
+}
+.reset_password{
+    color: #421966;
+    font-size: 14px;
+    font-weight: 500;
+}
+.reset_password:hover{
+    color: #138ea4;
+}
+
+/*===== End of Login Card Style =====*/
+
+/*===== Footer Style =====*/
+
+.footer{
+	text-align: center;
+	position: sticky;
+	font-size: 13px;
+	color:#421966;
+	font-weight: 500;
+}
+.developer_link{
+	color:#421966;
+}
+.developer_link:hover{
+	color: #138ea4;
+}
+
+/*===== End of Footer Style =====*/
